@@ -1,0 +1,112 @@
+[
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 1,
+        "fields": {
+            "watched": "no",
+            "title": "Morbius",
+            "rating": 2,
+            "release_date": "2 Januari 2020",
+            "review": "many plot hole, lack of instroduction of the hero"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 2,
+        "fields": {
+            "watched": "yes",
+            "title": "Drop Out",
+            "rating": 9,
+            "release_date": "29 Juli 2003",
+            "review": "Best movie for a man of culture"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 3,
+        "fields": {
+            "watched": "yes",
+            "title": "Spiderman: The Origin",
+            "rating": 4,            
+            "release_date": "24 Nov 1973",
+            "review": "---"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 4,
+        "fields": {
+            "watched": "no",
+            "title": "Tukang Bubur Naik Haji",
+            "rating": 0,
+            "release_date": "15 Apr 2017",
+            "review": "---"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 5,
+        "fields": {
+            "watched": "yes",
+            "title": "Dragon Ball Z",
+            "rating": 8,
+            "release_date": "12 Juni 1988",
+            "review": "even One of the oldest movie, all characters were matching and the built-up characters are good"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 6,
+        "fields": {
+            "watched": "yes",
+            "title": "Madagascar",
+            "rating": 6,
+            "release_date": "14 Feb 2013",
+            "review": "one of the coolest cartoon at the time"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 7,
+        "fields": {
+            "watched": "yes",
+            "title": "Naruto",
+            "rating": 7,
+            "release_date": "3 Mei 2005",
+            "review": "Classic Anime, all emotions in this movie were almost perfect"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 8,
+        "fields": {
+            "watched": "yes",
+            "title": "Justice League: Jack Snyder",
+            "rating": 7,
+            "release_date": "8 October",
+            "review": "One of the best SUperheroes Group movies"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 9,
+        "fields": {
+            "watched": "no",
+            "title": "Sailor moon",
+            "rating": 7,
+            "release_date": "18 March 1995",
+            "review": "---"
+        }
+    },
+    {
+        "model": "mywatchlist.mywatchlistitem",
+        "pk": 10,
+        "fields": {
+            "watched": "no",
+            "title": "Jumanji",
+            "rating": 6,
+            "release_date": "27 Jan 2018",
+            "review": "The plot kinda weird, but overall average-good movie"
+        }
+    }
+]
