@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block meta %}
+<title>Make Task</title>
+{% endblock meta %}
+
+{% block content %}  
+<style>
+    body {
+        background-color: #fafad2;
+        width: 450px;
+        align-items: center;
+        height: 480px;
+        display: flex;
+        position: absolute;
+        ;
+        
+    }
+    .Making_Task {
+        color:rgb(224, 15, 15);
+    }
+</style>
+<body>
+    <div class = "create_task">
+    
+        <h1>Make Task</h1>  
+            <form method="POST" >  
+                {% csrf_token %}
+
+                <table>  
+                    <tr> 
+                    <td>Title: </td>
+                     
+                    <td><input type="text" class="form-control" placeholder="fill todo" name="title"></td>  
+                    </tr>
+                    
+                    <tr>
+                        <td>Content: </td>
+                        <td><input type="text" class="form-control" placeholder="fill description" name="description"></td>
+                    </tr>
+                </table>  
+                <br>
+                <button type="submit">Build Any Task</button> 
+    
+        
+                <button><a href="{% url 'todolist:show_todolist' %}">Back</a></button>
+            </form>
+    </div> 
+    
+    {% endblock content %}
+</body>

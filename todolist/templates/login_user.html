@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block meta %}
+<title>Login</title>
+{% endblock meta %}
+
+{% block content %}
+<style>
+body {
+    background-color: rgb(197, 231, 58);
+        width: 450px;
+        align-items: center;
+        height: 480px;
+        display: flex;
+        position: absolute;
+        ;
+    }
+    .loginuser {
+        border: 5px outset rgb(128, 109, 109);
+        color:rgb(201, 150, 150);
+        background-color:#f3363673;
+        margin:auto;
+        padding: 50px
+    }
+
+    
+    .form-control {
+        color:rgb(157, 237, 184);
+        text-align: center;
+    }
+
+</style>
+
+
+
+<body>
+    <div class = "loginuser">
+
+        <h1>Login</h1>
+    
+        <form method="POST" action="">
+            {% csrf_token %}
+            <table>
+                <tr>
+                    <td>Username: </td>
+                    <td><input type="text" name="username" placeholder="Username" class="form-control"></td>
+                </tr>
+    
+                <tr>
+                    <td>Password: </td>
+                    <td><input type="password" name="password" placeholder="Password" class="form-control"></td>
+                </tr>
+    
+                <tr>
+                    <td></td>
+                    <td><button type="submit" class="btn btn-primary">Login</button></td>
+                </tr>
+            </table>
+        </form>
+    
+        <div style="text-align: center;"></div><a href="{% url 'todolist:register' %}">Create Account</a></div>
+    
+    {% endblock content %}
+</body>
